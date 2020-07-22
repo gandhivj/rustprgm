@@ -10,7 +10,7 @@ pub fn is_leap_year(year: u64) -> bool {
 				println!("{} is not a leap year", year );
 			}
 		}else {
-			println!("{}is a leap year", year );
+			println!("{}is not a leap year", year );
 		}
 	}else {
 		is_leap=false;
